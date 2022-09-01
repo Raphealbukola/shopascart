@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+#hee:hover{
+  color: red;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hee{
+  font-weight:500;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  margin-top: -16px;
 }
+#hee2{
+  color: red;
+  font-weight:500;
+}
+#hee2:hover{
+  color: black;
+}
+#hed{
+  background-color: #D92D20;
+  height: 11vh;
+   
+}
+.logo{
+  position: fixed;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#up1 a{
+  text-decoration: none;
+  color: black;
+
+}
+#up2 a{
+  text-decoration: none;
   color: white;
+  background-color: #D92D20;
+  border-radius: 40px;
+
+}
+#up2 a:hover{
+  background-color: #C7362B;
+}
+#section1{
+  
+  background-color: #D92D20;
+}
+#strong{
+  font-size:50px;
+line-height: 60px;
+}
+#arrow{
+  margin-left: -42px;
+}
+#arrow:hover{
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.cardimg{
+  height: 160px;
+}
+.cardimg2{
+  height: 200px;
+}
+#lagos{
+text-decoration: none;
+color: #D92D20;
+}
+#GROCERIES{
+  background-color: #D92D20;
+  font-family: SHPCFONT, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#need{
+  height: 370px;
+  background-image: url(/src/assets/images/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#size1{
+  font-size: large;
+}
+#size2{
+  font-size: 30px;
+
+}
+#htm{
+  background-color: #A6F4C5;
+}
+#card2{
+  background-color: #F9FAFB;
+}
+#red{
+  background-color: #D92D20;
+  border-radius: 10px;
+}
+.SHOP{
+  color: gray;
+}
+.get a{
+text-decoration: none;
+color: #D92D20;
+font-weight: bold;
+
+}
+.get a:hover{
+color: #D92D20;
+}
+.get{
+  border-radius: 30px;
+  background-color: white;
+}
+.get:hover{
+  background-color: #E4D9D9;
+}
+.fees{
+  color: gray;
+}
+#header1{
+  background-color: #1D2939;
+}
+.top{
+  color: gray;
+}
+.top:hover{
+  color: gray;
+  text-decoration: none !important;
+}
+#wow li{
+  list-style-type: none;
+  
+}
+#wow li:hover{
+  text-decoration: underline;
+  
+}
+#heder{
+  background-color: #101828;
+}
+#heder p{
+  color: gray;
+}
+@media (max-width: 767.98px) {
+  #strong{
+    font-size:30px;
+    line-height: 45px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  
+  #cardhtm{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  overflow-x: scroll;
+  }
+  .cardimg{
+    height: 130px;
+  }
+  #card2{
+    background-color: #F9FAFB;
+    width: 300px;
+  }
+  #red{
+    width: 90%;
+  }
+  
+  #card{
+  display: grid;
+  /* grid-template-columns: 30% 50% 20%; */
+  grid-template-columns: 1fr 1fr ; 
+  }
+  #size1{
+    font-size: small;
+  }
+  #size2{
+    font-size: large;
+    margin-top: 40px;
+  }
+  
+  #wee{
+  line-height: 50px;
+  }
+  #section1{
+    height: 40vh;
+  }
+  #need{
+    display: none;
+  }
+  #oder{
+    display: none;
   }
 }
