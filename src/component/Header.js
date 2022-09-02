@@ -14,7 +14,7 @@ function Header() {
         <div className='col-lg-2'>
             <img src={img18} alt="" />
         </div>
-    <ul id='wow' className='col-lg-2 text-light '>
+    <ul id='wow' className='col-lg-2 text-light'>
         <li className='mt-2 top'>Top Cities</li>
         <li className='mt-1'>Victoria Island</li>
         <li className='mt-1'>Lekki</li>
